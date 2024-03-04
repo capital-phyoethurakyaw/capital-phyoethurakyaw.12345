@@ -71,6 +71,16 @@
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\favicon.png" />
     <Content Include="assets\img\hero-bg.jpg" />
+    <Content Include="assets\img\portfolio\HR-1.PNG" />
+    <Content Include="assets\img\portfolio\HR-2.PNG" />
+    <Content Include="assets\img\portfolio\HR-3.PNG" />
+    <Content Include="assets\img\portfolio\Indeed-1.PNG" />
+    <Content Include="assets\img\portfolio\Indeed-2.PNG" />
+    <Content Include="assets\img\portfolio\MALLAPI-1.PNG" />
+    <Content Include="assets\img\portfolio\MALLAPI-2.PNG" />
+    <Content Include="assets\img\portfolio\Okamei-1.PNG" />
+    <Content Include="assets\img\portfolio\Okamei-2.PNG" />
+    <Content Include="assets\img\portfolio\Okamei-3.PNG" />
     <Content Include="assets\img\portfolio\portfolio-1.jpg" />
     <Content Include="assets\img\portfolio\portfolio-2.jpg" />
     <Content Include="assets\img\portfolio\portfolio-3.jpg" />
@@ -83,6 +93,26 @@
     <Content Include="assets\img\portfolio\portfolio-details-1.jpg" />
     <Content Include="assets\img\portfolio\portfolio-details-2.jpg" />
     <Content Include="assets\img\portfolio\portfolio-details-3.jpg" />
+    <Content Include="assets\img\portfolio\RO-1.PNG" />
+    <Content Include="assets\img\portfolio\RO-2.PNG" />
+    <Content Include="assets\img\portfolio\RO-3.PNG" />
+    <Content Include="assets\img\portfolio\ScriptGenerator-1.PNG" />
+    <Content Include="assets\img\portfolio\ScriptGenerator-2.PNG" />
+    <Content Include="assets\img\portfolio\ScriptGenerator-3.PNG" />
+    <Content Include="assets\img\portfolio\SL-1.PNG" />
+    <Content Include="assets\img\portfolio\SL-2.PNG" />
+    <Content Include="assets\img\portfolio\SMS-1.PNG" />
+    <Content Include="assets\img\portfolio\SMS-2.PNG" />
+    <Content Include="assets\img\portfolio\SMS-3.png" />
+    <Content Include="assets\img\portfolio\SPC-1.PNG" />
+    <Content Include="assets\img\portfolio\SPC-2.PNG" />
+    <Content Include="assets\img\portfolio\SPC-3.PNG" />
+    <Content Include="assets\img\portfolio\Tenfold-1.PNG" />
+    <Content Include="assets\img\portfolio\Tenfold-2.PNG" />
+    <Content Include="assets\img\portfolio\Tenfold-3.PNG" />
+    <Content Include="assets\img\portfolio\Tenfold-4.PNG" />
+    <Content Include="assets\img\portfolio\Tenfold-5.PNG" />
+    <Content Include="assets\img\portfolio\Tenfold-6.PNG" />
     <Content Include="assets\img\profile-img.jpg" />
     <Content Include="assets\img\testimonials\testimonials-1.jpg" />
     <Content Include="assets\img\testimonials\testimonials-2.jpg" />
@@ -139,15 +169,34 @@
     <Content Include="assets\vendor\typed.js\typed.module.js" />
     <Content Include="assets\vendor\typed.js\typed.umd.js" />
     <Content Include="assets\vendor\waypoints\noframework.waypoints.js" />
+    <Content Include="detail\details-accel.html" />
+    <Content Include="detail\details-hr.html" />
+    <Content Include="detail\details-indeed.html" />
+    <Content Include="detail\details-mallapi.html" />
+    <Content Include="detail\details-okamei.html" />
+    <Content Include="detail\details-routeopetimizer.html" />
+    <Content Include="detail\details-scriptgen.html" />
+    <Content Include="detail\details-spacelayout.html" />
+    <Content Include="detail\details-spc.html" />
+    <Content Include="detail\details-sms.html" />
     <Content Include="forms\contact.php" />
     <Content Include="forms\Readme.txt" />
+    <Content Include="index.aspx" />
     <Content Include="index.html" />
     <Content Include="inner-page.html" />
     <Content Include="portfolio-details.html" />
     <Content Include="Readme.txt" />
+    <Content Include="detail\details-tenfold.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
